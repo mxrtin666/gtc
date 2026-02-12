@@ -1,0 +1,36 @@
+.country-detail {
+  max-width: 700px;
+}
+
+.country-info {
+  margin: 20px 0;
+}
+
+.info-row {
+  display: flex;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info-label {
+  font-weight: bold;
+  min-width: 180px;
+}
+
+.info-value {
+  flex: 1;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-link:hover {
+  background-color: #0056b3;
+}

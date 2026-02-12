@@ -1,0 +1,11 @@
+services:
+  web:
+    image: mxrtin666/gtc:1
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - HOST=0.0.0.0
+      - CHOKIDAR_USEPOLLING=true
