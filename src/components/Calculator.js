@@ -40,6 +40,24 @@ function Calculator() {
     }
   }
 
+  function handleMockSaveTransaction() {
+    if (rate === null || Number.isNaN(numericAmount)) {
+      return;
+    }
+
+    const transaction = {
+      transactionDate: new Date().toISOString(),
+      userLogin: 'demoUser',
+      sourceAmount: Number(numericAmount.toFixed(2)),
+      sourceCurrency: fromCurrency,
+      targetCurrency: toCurrency,
+      exchangeRate: rate
+    };
+
+    console.log('Would POST to /api/transactions:', transaction);
+    alert('Mock save done. Check browser console.');
+  }
+
   return (
     <section className="calculator">
       <h2>Currency Calculator</h2>
@@ -105,6 +123,12 @@ function Calculator() {
         <p className="calculator-result">
           No rate available for this currency pair.
         </p>
+      )}
+
+      {rate !== null && !Number.isNaN(numericAmount) && (
+        <button type="button" onClick={handleMockSaveTransaction}>
+          Save transaction (mock)
+        </button>
       )}
     </section>
   );

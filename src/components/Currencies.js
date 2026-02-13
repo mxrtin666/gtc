@@ -20,7 +20,7 @@ function Currencies() {
       }
     }
 
-    loadCurrencies();
+  void loadCurrencies();
   }, []);
 
   return (

@@ -1,0 +1,18 @@
+[
+  {
+    "transactionDate": "2026-02-13T10:00:00Z",
+    "userLogin": "demoUser",
+    "sourceAmount": 100,
+    "sourceCurrency": "CHF",
+    "targetCurrency": "EUR",
+    "exchangeRate": 1.07386
+  },
+  {
+    "transactionDate": "2026-02-13T12:30:00Z",
+    "userLogin": "alice",
+    "sourceAmount": 250,
+    "sourceCurrency": "EUR",
+    "targetCurrency": "USD",
+    "exchangeRate": 1.1744
+  }
+]

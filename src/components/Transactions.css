@@ -1,0 +1,14 @@
+.transactions {
+  max-width: 1000px;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
