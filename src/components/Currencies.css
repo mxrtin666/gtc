@@ -1,0 +1,14 @@
+.currencies {
+  max-width: 800px;
+}
+
+.currency-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}

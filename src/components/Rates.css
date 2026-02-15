@@ -1,0 +1,18 @@
+.rates {
+  max-width: 800px;
+}
+
+.reference {
+  font-style: italic;
+}
+
+.rate-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rate-table th,
+.rate-table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}

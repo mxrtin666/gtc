@@ -1,0 +1,68 @@
+.calculator {
+  padding: 1rem 0 2rem 0;
+  margin-left: 2rem;
+  max-width: 600px;
+}
+
+.calculator h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.calculator-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.calculator-row label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.persist-label {
+  font-weight: 600;
+}
+
+.persist-label input[type='checkbox'] {
+  margin: 0;
+}
+
+.calculator-row input[type="number"],
+.calculator-row select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.calculator-row input[type="number"] {
+  min-width: 120px;
+}
+
+.calculator-row select {
+  min-width: 80px;
+}
+
+.calculator-row button {
+  padding: 0.35rem 0.75rem;
+}
+
+.calculator-result {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.calculator-save-message {
+  font-weight: 600;
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "transactionDate": "2026-01-01T09:15:00.000Z",
+    "userLogin": "demo",
+    "sourceAmount": 100,
+    "sourceCurrency": "CHF",
+    "targetCurrency": "EUR",
+    "exchangeRate": 1.0623
+  }
+]
